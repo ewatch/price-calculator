@@ -1,16 +1,16 @@
 {
-    "name": "spatie/:package_name",
-    "description": ":package_description",
+    "name": "spatie/price-calculator",
+    "description": "Perform price calculations and create an invoice",
     "keywords": [
         "spatie",
-        ":package_name"
+        "price-calculator"
     ],
-    "homepage": "https://github.com/spatie/:package_name",
+    "homepage": "https://github.com/spatie/price-calculator",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Jan Frühwacht",
+            "email": "ewatchhu@gmx.de",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Ewatch\\PriceCalculations\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Ewatch\\PriceCalculations\\Tests\\": "tests"
         }
     },
     "scripts": {
